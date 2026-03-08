@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: whitesmoke;
+}
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+body.dark nav {
+  background-color: #444444;
+  color: #e0e0e0;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+body.dark .content {
+  color: #e0e0e0;
+  background-color: #121212;
+}
+body.dark .country-border {
+  background-color: #444444;
+  color: #e0e0e0;
+}
+body.dark .country-border:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+body.dark input {
+  background-color: #444444;
+  color: #e0e0e0;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+body.dark input::placeholder {
+  color: #e0e0e0;
+}
+body.dark .select {
+  background-color: #444444;
+  color: #e0e0e0;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+body.dark .dark-mode {
+  color: #e0e0e0;
+}
+body.dark .MuiPaper-root {
+  background-color: #444444;
+  color: #e0e0e0;
+}
+body.dark .back {
+  background-color: #444444;
+  color: #e0e0e0;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}

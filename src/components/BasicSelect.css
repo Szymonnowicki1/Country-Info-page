@@ -1,0 +1,19 @@
+.select {
+  background-color: white;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  outline: none;
+  border: none;
+  transition: all 0.2s ease;
+}
+.select fieldset {
+  border: none !important;
+}
+
+.select.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+.select:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}

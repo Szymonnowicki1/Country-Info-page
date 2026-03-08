@@ -1,0 +1,27 @@
+nav {
+  background-color: white;
+  display: flex;
+  height: 8vh;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.where {
+  font-weight: bold;
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.dark-mode {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.moon-icon {
+  margin-right: 10px;
+  display: flex;
+}

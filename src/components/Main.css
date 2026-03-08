@@ -1,0 +1,14 @@
+.content {
+  background-color: whitesmoke;
+  width: 1100px;
+  margin: 0 auto;
+  height: auto;
+}
+.select-contener {
+  margin-top: 30px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
