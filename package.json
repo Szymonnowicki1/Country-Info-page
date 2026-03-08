@@ -1,7 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://github.com/Szymonnowicki1/Country-page-react",
-  "version": "0.1.0",
+"homepage": "https://Szymonnowicki1.github.io/Country-Info-page"  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
