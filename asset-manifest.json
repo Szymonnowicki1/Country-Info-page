@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Szymonnowicki1/Country-page-react/static/css/main.8826d1a5.css",
+    "main.js": "/Szymonnowicki1/Country-page-react/static/js/main.e375d5ac.js",
+    "static/js/453.670e15c7.chunk.js": "/Szymonnowicki1/Country-page-react/static/js/453.670e15c7.chunk.js",
+    "index.html": "/Szymonnowicki1/Country-page-react/index.html",
+    "main.8826d1a5.css.map": "/Szymonnowicki1/Country-page-react/static/css/main.8826d1a5.css.map",
+    "main.e375d5ac.js.map": "/Szymonnowicki1/Country-page-react/static/js/main.e375d5ac.js.map",
+    "453.670e15c7.chunk.js.map": "/Szymonnowicki1/Country-page-react/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8826d1a5.css",
+    "static/js/main.e375d5ac.js"
+  ]
+}
