@@ -9,6 +9,8 @@ Screenshot
 <img width="2532" height="873" alt="image" src="https://github.com/user-attachments/assets/8e3e06db-e80d-4ef9-9cb7-15f3938e72ff" />
 
 
+
+
 Live Demo 🚀
 
 https://Szymonnowicki1.github.io/Country-Info-page/
