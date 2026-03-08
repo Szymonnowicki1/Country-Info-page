@@ -4,6 +4,10 @@ A web application that displays information about countries, including flags, po
 
 The app uses the REST Countries API to fetch country data.
 
+Screenshot
+![Uploading image.png…]()
+
+
 Live Demo 🚀
 
 https://Szymonnowicki1.github.io/Country-Info-page/
