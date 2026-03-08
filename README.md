@@ -6,7 +6,7 @@ The app uses the REST Countries API to fetch country data.
 
 Screenshot
 
-![Uploading image.png…]()
+<img width="2532" height="873" alt="image" src="https://github.com/user-attachments/assets/8e3e06db-e80d-4ef9-9cb7-15f3938e72ff" />
 
 
 Live Demo 🚀
