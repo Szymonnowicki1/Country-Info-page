@@ -8,44 +8,47 @@ const Country = ({ searchTerm, selectedRegion }) => {
 
   useEffect(() => {
     fetch(
-      "https://countries.dev/countries?fields=name,flags,population,region,capital"
+  "https://countries.dev/countries?fields=name,flag,flags,population,region,capital"
     )
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch countries");
         }
+
         return res.json();
       })
       .then((data) => {
-        const mapData = data.map((country) => ({
-          flag: country.flags?.svg || country.flag,
-          name: country.name,
-          population: country.population || 0,
-          region: country.region,
-          capital: country.capital || "N/A",
-        }));
+       const mapData = data.map((country) => ({
+flag: country.flags?.svg || country.flags?.png || country.flag,
+  name: country.name,
+  population: country.population || 0,
+  region: country.region,
+  capital: country.capital || "N/A",
+}));
 
         mapData.sort((a, b) => a.name.localeCompare(b.name));
         setCountries(mapData);
       })
       .catch((err) => {
-        console.log("Error fetching countries:", err);
+        console.error("Error fetching countries:", err);
       });
   }, []);
 
   const filteredCountries = countries
-    .filter((c) =>
-      selectedRegion === "All" ? true : c.region === selectedRegion
+    .filter((country) =>
+      selectedRegion === "All"
+        ? true
+        : country.region === selectedRegion
     )
-    .filter((c) =>
-      c.name.toLowerCase().includes(searchTerm.toLowerCase())
+    .filter((country) =>
+      country.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
   return (
     <div className="country-contener">
       {filteredCountries.map((country) => (
         <Link
-          to={`/country/${country.name}`}
+          to={`/country/${encodeURIComponent(country.name)}`}
           className="country-border"
           key={country.name}
         >
@@ -58,14 +61,18 @@ const Country = ({ searchTerm, selectedRegion }) => {
               objectFit: "cover",
             }}
           />
+
           <div className="name">{country.name}</div>
+
           <div className="population">
             <span>Population:</span>{" "}
             {country.population.toLocaleString()}
           </div>
+
           <div className="region">
             <span>Region:</span> {country.region}
           </div>
+
           <div className="capital">
             <span>Capital:</span> {country.capital}
           </div>
