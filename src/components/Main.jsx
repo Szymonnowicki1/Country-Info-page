@@ -13,9 +13,7 @@ const Main = () => {
                 <Input onSearch={setSerchTerm}/>
                 <BasicSelect selectedRegion={selectedRegion} setSelectedRegion={setSelectedRegion}/>
             </div>
-            <div className="country-contener">
                 <Country searchTerm={searchTerm} selectedRegion={selectedRegion}/>
-            </div>
         </div>
     )
 }

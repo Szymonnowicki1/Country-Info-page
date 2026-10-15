@@ -1,14 +1,19 @@
 .content {
   background-color: whitesmoke;
-  width: 1100px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
-  height: auto;
+  min-height: 100vh;
+  padding: 0 30px;
+  box-sizing: border-box;
 }
+
 .select-contener {
   margin-top: 30px;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   width: 100%;
+  box-sizing: border-box;
 }
