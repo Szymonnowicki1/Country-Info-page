@@ -8,7 +8,7 @@ const Country = ({ searchTerm, selectedRegion }) => {
 
   useEffect(() => {
     fetch(
-  "https://countries.dev/countries?fields=name,flag,flags,population,region,capital"
+  "https://countries.dev/countries?fields=name,flags,population,region,capital"
     )
       .then((res) => {
         if (!res.ok) {
